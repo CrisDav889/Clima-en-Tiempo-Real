@@ -22,6 +22,7 @@ def obtener_clima(ciudad, api_key):
 
 if __name__ == "__main__":
     ciudad = input("Ingrese la ciudad: ")
-    api_key = '27b9e60a27a40d331ab03b9638fc6f47'
+    api_key = ''
+# Usa tu Api Key de openweather 
     obtener_clima(ciudad, api_key)
 
